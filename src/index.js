@@ -1,4 +1,3 @@
-const domContainer = document.querySelector("#body");
-const root = ReactDOM.crateRoot(domContainer);
+const domContainer = document.getElementById("body");
+const root = ReactDOM.createRoot(domContainer);
 root.render(React.createElement("p", {}, "a"));
-alert("e");
