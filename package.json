@@ -1,0 +1,30 @@
+{
+  "name": "jsx-transpile-result",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist && cp public/index.html dist",
+    "serve": "http-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojisan-toybox/jsx-transpile-result.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ojisan-toybox/jsx-transpile-result/issues"
+  },
+  "homepage": "https://github.com/ojisan-toybox/jsx-transpile-result#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-react": "^7.18.6"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
